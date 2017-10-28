@@ -21,6 +21,7 @@ import (
 
 	"github.com/mholt/caddy/caddytls"
 	// This is where other plugins get plugged in (imported)
+	_ "gopkg.in/restic/caddy.v0"
 )
 
 func init() {
